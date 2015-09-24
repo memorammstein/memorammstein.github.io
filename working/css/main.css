@@ -1,0 +1,26 @@
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+}
+
+.text-font {
+  font-family: 'Quattrocento', serif;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.nolink {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0.125em;
+}
+
+.pdf {
+  margin-top: 1em;
+  height: 90vh;
+}
