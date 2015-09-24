@@ -1,34 +1,21 @@
 .name {
   font-family: 'Open Sans', sans-serif;
-  font-size: 3.5em;
-  margin-bottom: 0.75em;
-}
-
-.photo {
-  margin-bottom: 3.5em;
+  font-size: 2em;
 }
 
 .text-font {
   font-family: 'Quattrocento', serif;
 }
 
-.bio {
+.icon {
+  font-size: 2em;
 }
 
-.bio > a {
-  color: inherit;
+.nolink {
+  color: inherit !important;
   text-decoration: none;
 }
 
-.social-networks {
-  margin-top: 5em;
-}
-
-.icon-links {
-  font-size: 2.5em;
-}
-
-.icon-links > a {
-  color: inherit;
-  text-decoration: none;
+hr {
+  margin: 0.125em;
 }
