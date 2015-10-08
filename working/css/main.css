@@ -24,3 +24,7 @@ hr {
   margin-top: 1em;
   height: 90vh;
 }
+
+.font {
+  font-family: 'Open Sans', sans-serif;
+}
