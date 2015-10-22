@@ -12,19 +12,21 @@
   font-family: 'Quattrocento', serif;
 }
 
-.bio {
+.links-element {
+  padding-top: .1;
+  padding-bottom: .1;
 }
 
-.bio > a {
-  color: inherit;
+.links-element>a {
+  color: inherit !important;
 }
 
 .social-networks {
-  margin-top: 5em;
+  margin-top: 3.5em;
 }
 
 .icon-links {
-  font-size: 2.5em;
+  font-size: 1.25em;
 }
 
 .icon-links > a {
