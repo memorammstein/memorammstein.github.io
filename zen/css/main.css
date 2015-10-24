@@ -1,0 +1,35 @@
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+}
+
+.text-font {
+  font-family: 'Quattrocento', serif;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.nolink {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0.125em;
+}
+
+.intro-row {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.zen {
+  margin-top: 1.5em;
+  line-height: 2em;
+}
+
+.quotation-marks {
+  quotes: "“" "”";
+}
