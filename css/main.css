@@ -78,3 +78,7 @@ hr {
 .font {
   font-family: 'Open Sans', sans-serif;
 }
+
+.coding-card {
+  margin: 1em 0;
+}
