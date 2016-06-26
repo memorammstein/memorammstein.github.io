@@ -79,6 +79,11 @@ hr {
   font-family: 'Open Sans', sans-serif;
 }
 
-.coding-card {
+.card {
   margin: 1em 0;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
 }
