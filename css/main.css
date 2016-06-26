@@ -33,6 +33,11 @@ html {
 .social-networks {
   margin-top: 3.5em;
 }
+@media (max-height: 500px) {
+  .social-networks {
+    margin-top: 1.5em;
+  }
+}
 
 .icon-links {
   font-size: 1.5em;
