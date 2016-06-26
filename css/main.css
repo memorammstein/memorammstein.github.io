@@ -1,7 +1,16 @@
-.name {
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+.name-main {
   font-family: 'Open Sans', sans-serif;
   font-size: 3em;
   margin-bottom: 0.75em;
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
 }
 
 .photo {
@@ -32,4 +41,40 @@
 .icon-links > a {
   color: inherit;
   text-decoration: none;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.nolink {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0.125em;
+}
+
+.intro-row {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.zen {
+  margin-top: 1.5em;
+  line-height: 2em;
+}
+
+.quotation-marks {
+  quotes: "“" "”";
+}
+
+.pdf {
+  margin-top: 1em;
+  height: 90vh;
+}
+
+.font {
+  font-family: 'Open Sans', sans-serif;
 }
