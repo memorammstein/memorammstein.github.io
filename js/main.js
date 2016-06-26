@@ -2,7 +2,8 @@
   'use strict';
   //code
   $('.coding-card').toggle(100);
-  $('[href="#coding"]').click(function () {
+  $('#coding').click(function (event) {
+    event.preventDefault();
     $('.coding-card').slideToggle(250);
   });
 }());
