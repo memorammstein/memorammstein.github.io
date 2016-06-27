@@ -12,6 +12,9 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
 }
+.name>a {
+  cursor: pointer;
+}
 
 .photo {
   margin-bottom: 2.5em;
@@ -91,4 +94,40 @@ hr {
 iframe {
   margin-left: auto;
   margin-right: auto;
+}
+
+.header-row {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 10000;
+  padding: 1em;
+  border-bottom: 1px solid lightgray;
+}
+
+.hero-row {
+  background-color: black;
+  color: white;
+  background-image: url('/img/oliver-opaque.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 95vh;
+  line-height: 90vh;
+}
+
+.intro-row {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.intro-row>h1 {
+  margin-top: 0;
+}
+.intro-row .presentation {
+  font-size:1.25em;
+  text-align: left;
+  line-height: normal;
+  padding: 0 1em;
 }
