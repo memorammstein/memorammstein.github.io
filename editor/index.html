@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>An engineer after all</title>
+        <title>Blog Post Editor</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -45,27 +45,32 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-xs-1 text-left">
-              <a class="nolink icon" href="/"><i class="fa fa-home"></i></a>
-            </div>
-            <div class="col-xs-10 text-center">
+            <div class="col-xs-12 text-center">
               <span class="name"><a class="nolink" href="/">Guillermo Jiménez</a></span>
             </div>
-            <div class="col-xs-1 text-right">
-              <a class="nolink icon" href="mailto:guillermo_jimenez@outlook.com"><i class="fa fa-envelope"></i></a>
-            </div>
           </div>
-          <hr>
+          <hr style="margin-bottom:2.5em;">
           <!--content starts right here ma nizzle-->
-          <div class="row intro-row">
+          <div class="row">
             <div class="col-xs-12">
-              <div class="github-card" data-github="memorammstein" data-width="400" data-height="150" data-theme="default"></div>
-              <script src="http://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+              <form class="form" method="post">
+                <div class="form-group">
+                  <label for="title">Title</label>
+                  <input type="text" name="title" id="title" class="form-control" placeholder="Here goes the title">
+                </div>
+                <div class="form-group">
+                  <label for="content">Content</label>
+                  <textarea name="content" id="content" class="form-control" rows="20" cols="40"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" id="submit" name="submit" formaction="http://0.0.0.0:3000/posts">Submit</button>
+              </form>
             </div>
           </div>
         </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+        <script src="/js/main.js" charset="utf-8"></script>
     </body>
 </html>
