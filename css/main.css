@@ -131,3 +131,32 @@ iframe {
   line-height: normal;
   padding: 0 1em;
 }
+
+.blog-container {
+  padding-top: 5em;
+}
+
+article {
+  margin: 2.5em 0;
+}
+article .post-title h1 {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+article author:hover{
+  color: black;
+  cursor: pointer;
+}
+article date:hover{
+  color: black;
+  cursor: pointer;
+}
+article .post-content {
+  margin: 1.5em 0 0;
+}
+article .post-content * {
+  /*font-family: inherit !important;*/
+  font-family: 'Quattrocento', serif !important;
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
