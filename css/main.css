@@ -111,6 +111,7 @@ iframe {
   background-image: url('/img/chapu-compressed-opaque.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   min-height: 95vh;
   line-height: 90vh;
 }
@@ -121,16 +122,24 @@ iframe {
   max-width: 600px;
   display: inline-block;
   vertical-align: middle;
+  background-color: rgba(100, 100, 100, .7);
+  border-radius: 5px;
+  padding: 2em;
 }
 .intro-row>h1 {
   margin-top: 0;
 }
 .intro-row .presentation {
   font-size:1.25em;
-  text-align: left;
   line-height: normal;
   padding: 0 1em;
 }
+
+.info-banner {
+  margin: 5em auto;
+}
+
+/*BLOG STYLES*/
 
 .blog-container {
   padding-top: 5em;
