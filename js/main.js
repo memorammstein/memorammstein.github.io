@@ -29,7 +29,7 @@
                     '<h1>'+data[i].title+'</h1>'+
                   '</div>'+
                   '<div class="post-data">'+
-                    '<author>Guillermo Jiménez</author>'+' &#183; '+
+                    '<author>Guillermo Jimenez</author>'+' &#183; '+
                     '<date title="'+date_real+'">'+date_display+'</date>'+
                   '</div>'+
                   '<div class="post-image">'+
