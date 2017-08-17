@@ -19,6 +19,14 @@ html {
 .photo {
   margin-bottom: 2.5em;
 }
+.photo>a {
+  background-image: url('../img/memo-baw.jpg');
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  width: 7.5em;
+  height: 7.5em;
+}
 
 .text-font {
   font-family: 'Quattrocento', serif;
