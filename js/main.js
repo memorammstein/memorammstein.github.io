@@ -1,13 +1,5 @@
 ($(function() {
   'use strict';
-  //code
-
-  //front-page
-  $('.writing-card').toggle(100);
-  $('#writing').click(function (event) {
-    event.preventDefault();
-    $('.writing-card').slideToggle(250);
-  });
 
   //Dogs
   if (typeof moment !== 'undefined') {
