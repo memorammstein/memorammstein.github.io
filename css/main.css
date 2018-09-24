@@ -20,7 +20,7 @@ html {
   margin-bottom: 2.5em;
 }
 .photo>a {
-  background-image: url('../img/memo-baw.jpg');
+  background-image: url('../img/memo-dark.jpg');
   background-position: center;
   background-size: contain;
   display: inline-block;
