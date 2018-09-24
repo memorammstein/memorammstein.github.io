@@ -119,7 +119,7 @@ iframe {
 .intro-row {
   text-align: center;
   margin: auto;
-  max-width: 600px;
+  max-width: 620px;
   display: inline-block;
   vertical-align: middle;
   padding: 2em;
@@ -131,7 +131,10 @@ iframe {
 .intro-row .presentation {
   font-size:1.25em;
   line-height: 1.65em;
-  padding: 0 1em;
+}
+
+.intro-row .presentation p {
+  margin-bottom: 1em;
 }
 
 .info-banner {
