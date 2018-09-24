@@ -110,12 +110,8 @@ iframe {
 }
 
 .hero-row {
-  background-color: black;
-  color: white;
-  background-image: url('/img/malahierba-opaque.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  background-color: white;
+  color: black;
   min-height: 95vh;
   line-height: 90vh;
 }
@@ -126,16 +122,15 @@ iframe {
   max-width: 600px;
   display: inline-block;
   vertical-align: middle;
-  background-color: rgba(100, 100, 100, .7);
-  border-radius: 5px;
   padding: 2em;
 }
 .intro-row>h1 {
   margin-top: 0;
+  margin-bottom: 1em;
 }
 .intro-row .presentation {
   font-size:1.25em;
-  line-height: normal;
+  line-height: 1.65em;
   padding: 0 1em;
 }
 
