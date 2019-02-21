@@ -33,6 +33,10 @@ a {
   height: 7.5em;
 }
 
+.photo>a:hover {
+  cursor: default;
+}
+
 .text-font {
   font-family: 'Quattrocento', serif;
 }
@@ -117,8 +121,8 @@ iframe {
 .hero-row {
   background-color: white;
   color: black;
-  min-height: 95vh;
-  line-height: 90vh;
+  min-height: 70vh;
+  line-height: 70vh;
 }
 
 .intro-row {
