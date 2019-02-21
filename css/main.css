@@ -1,5 +1,11 @@
 html {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .name-main {
@@ -26,6 +32,10 @@ html {
   display: inline-block;
   width: 7.5em;
   height: 7.5em;
+}
+
+.photo>a:hover {
+  cursor: default;
 }
 
 .text-font {
@@ -112,8 +122,8 @@ iframe {
 .hero-row {
   background-color: white;
   color: black;
-  min-height: 95vh;
-  line-height: 90vh;
+  min-height: 70vh;
+  line-height: 70vh;
 }
 
 .intro-row {
@@ -139,35 +149,4 @@ iframe {
 
 .info-banner {
   margin: 5em auto;
-}
-
-/*BLOG STYLES*/
-
-.blog-container {
-  padding-top: 5em;
-}
-
-article {
-  margin: 2.5em 0;
-}
-article .post-title h1 {
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-}
-article author:hover{
-  color: black;
-  cursor: pointer;
-}
-article date:hover{
-  color: black;
-  cursor: pointer;
-}
-article .post-content {
-  margin: 1.5em 0 0;
-}
-article .post-content * {
-  /*font-family: inherit !important;*/
-  font-family: 'Quattrocento', serif !important;
-  font-size: 20px !important;
-  line-height: 1.5 !important;
 }
