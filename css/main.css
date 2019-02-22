@@ -23,7 +23,7 @@ a {
 }
 
 .photo {
-  margin-bottom: 4.5em;
+  margin-bottom: 3.5em;
 }
 .photo>a {
   background-image: url('../img/memo-dark.jpg');
@@ -40,14 +40,6 @@ a {
 
 .text-font {
   font-family: 'Quattrocento', serif;
-}
-
-.links-element {
-  padding-bottom: 1.5em;
-}
-
-.links-element>a {
-  color: inherit !important;
 }
 
 .social-networks {
@@ -82,11 +74,6 @@ hr {
   margin: 0.125em;
 }
 
-.intro-row {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
 .zen {
   margin-top: 1.5em;
   line-height: 2em;
@@ -96,57 +83,7 @@ hr {
   quotes: "“" "”";
 }
 
-.pdf {
-  margin-top: 1em;
-  height: 90vh;
-}
-
-.font {
-  font-family: 'Open Sans', sans-serif;
-}
-
-iframe {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header-row {
-  position: fixed;
-  background-color: white;
-  width: 100%;
-  z-index: 10000;
-  padding: 1em;
-  border-bottom: 1px solid lightgray;
-}
-
-.hero-row {
-  background-color: white;
-  color: black;
-  min-height: 70vh;
-  line-height: 70vh;
-}
-
-.intro-row {
-  text-align: center;
+.presentation {
   margin: auto;
-  max-width: 620px;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 2em;
-}
-.intro-row>h1 {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-.intro-row .presentation {
-  font-size:1.25em;
-  line-height: 1.65em;
-}
-
-.intro-row .presentation p {
-  margin-bottom: 1em;
-}
-
-.info-banner {
-  margin: 5em auto;
+  max-width: 450px;
 }
